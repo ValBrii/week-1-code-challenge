@@ -23,4 +23,4 @@ function studentGrade(marks) {
 
 }
 
-studentGrade(80) // calling the function, insert the marks inside the brackets to  get the grade
+studentGrade() // calling the function, insert the marks inside the brackets to  get the grade
