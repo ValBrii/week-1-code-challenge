@@ -37,4 +37,4 @@ cd week-1-code-challenge
 Distributed under MIT licence
 
 # Contact Information
-britneyvalerie85@gmail.com
+britneyvalerie85@gmail.com.
