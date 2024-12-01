@@ -33,8 +33,8 @@ git@github.com:ValBrii/week-1-code-challenge.git
 ```bash
 cd week-1-code-challenge
 ```
-# Licence
-Distributed under MIT licence
+# License
+Distributed under MIT license
 
 # Contact Information
 britneyvalerie85@gmail.com.
