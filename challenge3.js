@@ -71,6 +71,7 @@ function getNetSalary (basicSalary, benefits) {
         nhif = 1700;
     }
     
+    
 
 // Calculating NSSF
     let nssf = grossSalary * 0.06;
