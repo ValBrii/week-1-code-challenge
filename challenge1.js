@@ -23,4 +23,4 @@ function studentGrade(marks) {
 
 }
 
- console.log(studentGrade());
+ console.log(studentGrade()); //calling the function and displaying the results
