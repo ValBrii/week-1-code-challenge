@@ -1,6 +1,6 @@
-function netSalary (basicSalary, benefits) {
-    const grossSalary = basicSalary +benefits
-    console.log(`Gross salary = ${grossSalary} `)
+function getNetSalary (basicSalary, benefits) {
+    const grossSalary = basicSalary +benefits //gross salary
+    
 
     //calculating PAYE per month
     let payePerMonth;
@@ -15,7 +15,7 @@ function netSalary (basicSalary, benefits) {
     } else {
         payePerMonth = grossSalary * 0.35;
     }
-    console.log(`PAYE = ${payePerMonth}`)
+    
     
     //Calculating NHIF
     let nhif;
@@ -70,18 +70,25 @@ function netSalary (basicSalary, benefits) {
     else {
         nhif = 1700;
     }
-    console.log(`NHIF = ${nhif}`)
+    
 
-// Calcuulating NSSF
+// Calculating NSSF
     let nssf = grossSalary * 0.06;
-    console.log(`NSSF = ${nssf}`)
+    
     //Total deductions
     let totalDeductions = payePerMonth + nhif + nssf;
     const netSalary = grossSalary - totalDeductions; // net salary
-    console.log(`Netsalary = ${netSalary}`)
-    
+
+    return{
+        grossSalary,
+        payePerMonth,
+        nhif,
+        nssf,
+        netSalary
+
+}
 }
 
-netSalary(); //calling the function
+console.log(getNetSalary()); //calling the function and displaying the output
 
   
