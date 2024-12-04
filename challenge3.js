@@ -92,4 +92,17 @@ function getNetSalary (basicSalary, benefits) {
 
 console.log(getNetSalary()); //calling the function and displaying the output
 
+
+// Example usage:
+const basicSalary = 50000; // Example basic salary
+const benefits = 15000; // Example benefits
+
+const salaryDetails = getNetSalary(basicSalary, benefits);
+
+console.log("Salary Breakdown:");
+console.log(`Gross Salary: ${salaryDetails.grossSalary}`);
+console.log(`PAYE (Tax): ${salaryDetails.payePerMonth}`);
+console.log(`NHIF Deduction: ${salaryDetails.nhif}`);
+console.log(`NSSF Deduction: ${salaryDetails.nssf}`);
+console.log(`Net Salary: ${salaryDetails.netSalary}`);
   
